@@ -47,3 +47,8 @@ public:
         cout << "Account Balance: $" << balance << endl;
     }
 };
+
+int main() {
+    string name;
+    int accountNum;
+    double initialDeposit;
