@@ -52,3 +52,7 @@ int main() {
     string name;
     int accountNum;
     double initialDeposit;
+
+    
+     // Welcome message
+    cout << "Welcome to the Bank System!" << endl;
