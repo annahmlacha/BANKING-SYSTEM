@@ -25,3 +25,14 @@ public:
             cout << "Invalid deposit amount!" << endl;
         }
     }
+     // Function to withdraw money
+    void withdraw(double amount) {
+        if (amount > 0 && amount <= balance) {
+            balance -= amount;
+            cout << "Withdrew: $" << amount << endl;
+        } else if (amount > balance) {
+            cout << "Insufficient balance!" << endl;
+        } else {
+            cout << "Invalid withdrawal amount!" << endl;
+        }
+    }
