@@ -53,6 +53,14 @@ int main() {
     int accountNum;
     double initialDeposit;
 
-    
+
      // Welcome message
     cout << "Welcome to the Bank System!" << endl;
+
+     // Input account details
+    cout << "Enter account holder's name: ";
+    getline(cin, name);
+    cout << "Enter account number: ";
+    cin >> accountNum;
+    cout << "Enter initial deposit amount: ";
+    cin >> initialDeposit;
