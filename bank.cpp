@@ -72,8 +72,15 @@ int main() {
 
 int choice;
     double amount;
-    
+
     // Loop for user interaction
     while (true) {
         showMenu();
         cin >> choice;
+
+         switch (choice) {
+            case 1: // Deposit
+                cout << "Enter deposit amount: $";
+                cin >> amount;
+                account1.deposit(amount);
+                break;
