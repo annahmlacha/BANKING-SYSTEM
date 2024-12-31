@@ -69,3 +69,11 @@ int main() {
     // Creating two bank accounts
     BankAccount account1("Alice", 1000.0);
     BankAccount account2("Bob", 500.0);
+
+int choice;
+    double amount;
+    
+    // Loop for user interaction
+    while (true) {
+        showMenu();
+        cin >> choice;
