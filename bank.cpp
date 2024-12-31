@@ -94,4 +94,10 @@ int choice;
                 case 3: // Check Balance
                 account1.checkBalance();
                 break;
+
+                 case 4: // Transfer money
+                cout << "Enter transfer amount: $";
+                cin >> amount;
+                account1.transfer(account2, amount);
+                break;
             
