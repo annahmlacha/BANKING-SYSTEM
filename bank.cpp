@@ -105,4 +105,12 @@ int choice;
                 cout << "Thank you for using the Banking System!" << endl;
                 return 0;
 
+                default:
+                cout << "Invalid choice. Please try again." << endl;
+        }
+    }
+
+    return 0;
+}
+
             
