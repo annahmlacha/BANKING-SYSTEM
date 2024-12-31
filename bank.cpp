@@ -84,3 +84,9 @@ int choice;
                 cin >> amount;
                 account1.deposit(amount);
                 break;
+
+                 case 2: // Withdraw
+                cout << "Enter withdrawal amount: $";
+                cin >> amount;
+                account1.withdraw(amount);
+                break;
