@@ -16,3 +16,13 @@ private:
         accountNumber = accountNum;
         balance = initialBalance;
     }
+
+            // Function to deposit money
+    void deposit(double amount) {
+        if (amount > 0) {
+            balance += amount;
+            cout << "Deposited: $" << amount << endl;
+        } else {
+            cout << "Invalid deposit amount!" << endl;
+        }
+    }
