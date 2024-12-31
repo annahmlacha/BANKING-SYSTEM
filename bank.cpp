@@ -100,4 +100,9 @@ int choice;
                 cin >> amount;
                 account1.transfer(account2, amount);
                 break;
+
+                case 5: // Exit
+                cout << "Thank you for using the Banking System!" << endl;
+                return 0;
+
             
