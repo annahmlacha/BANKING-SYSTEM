@@ -41,7 +41,16 @@ private:
     }         cout << "Invalid withdrawal amount!" << endl;
         }
     }
+
+
     // Function to check balance
     void checkBalance() {
         cout << "Account Balance: $" << balance << endl;
     }
+    // Function to display account details
+    void displayAccountDetails() {
+        cout << "Account Holder: " << accountHolder << endl;
+        cout << "Account Number: " << accountNumber << endl;
+        cout << "Account Balance: $" << balance << endl;
+    }
+}
