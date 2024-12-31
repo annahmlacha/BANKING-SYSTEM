@@ -58,3 +58,14 @@ private:
   string name;
     int accountNum;
     double initialDeposit;
+
+    
+    
+     // Welcome message
+    cout << "Welcome to the Bank System!" << endl;
+
+    
+int main() {
+    // Creating two bank accounts
+    BankAccount account1("Alice", 1000.0);
+    BankAccount account2("Bob", 500.0);
