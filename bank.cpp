@@ -38,4 +38,10 @@ private:
         } else {
             cout << "Invalid withdrawal amount!" << endl;
         }
+    }         cout << "Invalid withdrawal amount!" << endl;
+        }
+    }
+    // Function to check balance
+    void checkBalance() {
+        cout << "Account Balance: $" << balance << endl;
     }
