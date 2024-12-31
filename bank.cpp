@@ -90,3 +90,8 @@ int choice;
                 cin >> amount;
                 account1.withdraw(amount);
                 break;
+
+                case 3: // Check Balance
+                account1.checkBalance();
+                break;
+            
