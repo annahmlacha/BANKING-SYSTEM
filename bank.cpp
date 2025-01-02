@@ -95,6 +95,11 @@ int choice;
                 account1.checkBalance();
                 break;
 
+
+                 case 4:// Check if the balance is sufficient for the transfer
+    if (transferAmount > balance) {
+        cout << "Insufficient balance to complete the transfer!" << endl;
+
                  case 4: // Transfer money
                 cout << "Enter transfer amount: $";
                 cin >> amount;
@@ -107,6 +112,13 @@ int choice;
 
                 default:
                 cout << "Invalid choice. Please try again." << endl;
+
+
+
+
+
+
+
         }
     }
 
