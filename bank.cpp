@@ -99,14 +99,19 @@ int choice;
                  case 4:// Check if the balance is sufficient for the transfer
     if (transferAmount > balance) {
         cout << "Insufficient balance to complete the transfer!" << endl;
+        } else {
+        balance -= transferAmount;  // Deduct the transfer amount from balance
+        cout << "Transfer successful!" << endl;
+        cout << "Remaining balance: $" << balance << endl;
+    }
 
-                 case 4: // Transfer money
+                 case 5: // Transfer money
                 cout << "Enter transfer amount: $";
                 cin >> amount;
                 account1.transfer(account2, amount);
                 break;
 
-                case 5: // Exit
+                case 6: // Exit
                 cout << "Thank you for using the Banking System!" << endl;
                 return 0;
 
